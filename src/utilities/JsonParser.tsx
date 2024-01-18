@@ -1,3 +1,4 @@
+// Writing a JSON parser from scratch in TypeScript for learning.
 type JSONValue = JSONValue[] | JSONObject | string | number | boolean | null;
 
 interface JSONObject {
