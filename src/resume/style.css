@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace;
+    max-width: 85em;
+    margin: auto;
+  }
+
+  li{
+    font-size: 0.75em;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-left {
+    padding: .4em 1.5em;
+    flex: 15em;
+    text-align: center;
+  }
+  
+  .flex-right {
+    padding: .4em 1.5em;
+    flex: 50%;
+  }
+
+  .container {
+    padding: .6em 1.5em;
+  }
+
+  .ascii {
+    color: white;
+    background: black;
+	display:inline-block;
+	white-space:pre;
+	letter-spacing:0;
+	line-height:1.4;
+	font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace;
+	font-size:4px;
+  }
